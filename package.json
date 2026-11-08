@@ -1,0 +1,22 @@
+{
+  "name": "express-docker-health-checks",
+  "version": "1.0.0",
+  "description": "Express app with a /health endpoint, verified by curl, tests and a Docker HEALTHCHECK",
+  "private": true,
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["express", "docker", "healthcheck", "devops"],
+  "author": "Oseni Sakariyau Oluwadamilare",
+  "license": "MIT",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=24"
+  },
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}
