@@ -1,0 +1,12 @@
+# Keep the build context small and free of secrets.
+.git
+node_modules
+npm-debug.log*
+coverage
+tests
+docs
+.vscode
+.env
+.env.*
+Dockerfile
+.dockerignore
